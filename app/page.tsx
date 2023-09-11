@@ -7,7 +7,7 @@ import { Button } from "@/components/ui/button";
 export default function Home() {
   return (
     <main className="w-screen bg-slate-100">
-      <div className="h-screen">
+      <div className="">
         <Navbar />
         <Dashboard_1 />
         <Dashboard_2 />

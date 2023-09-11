@@ -11,8 +11,11 @@ const Dashboard_2 = () => {
   return (
     <div className="flex justify-center py-6  ">
       <div className="lg:w-4/6 w-11/12">
-        <div className="flex flex-wrap justify-between	">
-          <Card className="max-w-[370px] my-3  ">
+        <div className="flex flex-wrap md:justify-evenly justify-between ">
+          <Card
+            className="max-w-[350px] npx shadcn-ui@latest add popover
+  "
+          >
             <CardHeader>
               <CardTitle className="tracking-widest font-medium ">
                 MARGO
